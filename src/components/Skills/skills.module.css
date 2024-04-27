@@ -1,0 +1,111 @@
+.skillCardContainer{
+  display: flex;
+  /* width: 100%; */
+  /* border: 2px solid black; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* gap: 2rem; */
+  
+}
+.programmingLanguagesContainer,
+.webDevelopmentContainer,
+.webDesignContainer,
+.DataScienceContainer,
+.DatabasesContainer,
+.ToolsContainer,
+.operatingSystemsContainer {
+  /* padding: 10px; */
+  width: 700px;
+  background-color: aquamarine;
+  border-radius: 40px;
+}
+
+.programmingLanguagesCard,
+.webDevelopmentCard,
+.webDesignCard,
+.DataScienceCard,
+.DatabasesCard,
+.ToolsCard,
+.operatingSystemsCard {
+  /* width: 100%; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* background-color: blue; */
+  padding: 10px;
+  padding-bottom: 15px;
+}
+
+.Languages,
+.webDevelopmentCardContent,
+.webDesignCardContent,
+.DataScienceCardContent,
+.DatabasesCardContent,
+.ToolsCardContainer,
+.operatingSystemsCardContent {
+  width: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  gap: 5px;
+  /* height: 70; */
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+}
+
+.button {
+  border: 2px solid azure;
+  border-radius: 16px;
+  width: 85px;
+  justify-content: center;
+  align-items: center;
+  /* color: #0f0243; */
+  color: azure;
+  /* background-color:#0f0243; */
+  /* color: white; */
+  /* background-color: #d83f87; */
+  background: none;
+}
+
+.p {
+  font-size: 12px;
+  text-align: center;
+  height: 70px;
+  margin: 0;
+  opacity: 0.8;
+  color: azure;
+  /* color: #0f0243; */
+  /* color:white; */
+}
+
+.accordionStyles{
+  /* background-color: #d83f87; */
+}
+
+.AccordionHeader{
+  width: 100%;
+}
+.accordionItem{
+  background-color: brown;
+}
+.accordionStyles:hover{
+  /* background-color: rgb(245,143,124); */
+}
+.skillsCardComponent{
+  /* padding: 10px; */
+  /* margin-left: 1rem; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+@media (max-width: 768px) {
+  .skillCardContainer{
+    flex-direction: column;
+  }
+  
+}

@@ -1,0 +1,33 @@
+.moreAboutComponent{
+    background-image: linear-gradient(135deg, #2A1B3D, #ac9af5);
+    /* height: 80vh; */
+    height: 100%;
+}
+
+.moreAbout{
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem;
+    /* justify-content: center; */
+}
+.moreAboutImgCard{
+    width: 200px;
+    height: 400px;
+    /* clip-path: polygon(49% 8%, 76% 0, 82% 29%, 90% 73%, 80% 90%, 49% 100%, 20% 90%, 15% 74%, 28% 48%, 32% 22%); */
+
+    clip-path: circle(68.3% at 0 50%);
+}
+.moreAboutImgCard img{
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+    /* clip-path: circle(68.3% at 0 50%); */
+}
+.moreAboutCardBody{
+    color: azure;
+    /* width: fit-content; */
+    width: max-content;
+    /* padding-left: 2rem; */
+    margin-left: 2rem;
+    font-size: 14PX;
+}

@@ -1,0 +1,44 @@
+.Layout {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  
+}
+
+.layoutContainer {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid black; */
+  align-items: center;
+  justify-content: space-between;
+  background: burlywood;
+  gap: 2rem;
+  height: 100vh;
+}
+
+.navigationComponent {
+  align-self: self-end;
+  width: 40vw;
+  /* margin-top: -60px; */
+  margin-bottom: -60px;
+  z-index: 1;
+  /* margin-right: -80px; */
+}
+
+.homeComponent {
+  width:30vw ;
+  height: 80%;
+  margin-top: 2rem;
+  /* border: 2px solid black; */
+  padding:1rem;
+}
+
+.layoutRenderedComponent{
+    width: 70vw;
+ height: 80%;
+ overflow-y: scroll;
+ border: 2px solid black;
+ padding: 1rem;
+ margin-top: 2rem;
+}

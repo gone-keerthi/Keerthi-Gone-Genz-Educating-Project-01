@@ -1,0 +1,114 @@
+.body{
+    width: 100%;
+    /* border: 2px solid black; */
+    /* background-image: linear-gradient(145deg, #F2C4CE, #F58F7C); */
+
+    /* margin: 1rem; */
+    /* border-radius: 20px; */
+    /* min-height: 100vh; */
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(135deg, #2A1B3D, #ac9af5);
+
+}
+
+.resumeContainer{
+/* width: 100%; */
+padding: 35px 10%;
+}
+.resumeContainer{
+padding-right: calc(7% - 20px);
+}
+
+.MainContainer{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-column-gap:20px ;
+}
+
+.tittle{
+    font-size: 18px;
+    font-weight: 550;
+    font-family: helvetica;
+    /* color: #11a372; */
+    color: #0f0243;
+    padding: 0px 0px 20px 30px;
+}
+
+.educationContainerContent, .experienceContainerContent{
+    padding: 0px 30px;
+    border-left: 3px solid rgb(55, 47, 84);;
+}
+
+.educationContainerCard, .experienceContainerCard{
+    position: relative;
+    padding: 20px;
+    border-radius: 8px;
+    /* border:  #11a372; */
+    border: rgb(35, 16, 56);
+    border: 2px solid #eaeaea;
+    /* border: 2px solid rgb(35, 16, 56); */
+    /* background-color: #D6D6D6; */
+    /* background-color: #ffffff; */
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+}
+
+.educationContainerCard:hover, .experienceContainerCard:hover{
+    box-shadow: 0px 3px 12px 0px #ccc;
+    /* border: 1px solid transparent; */
+
+
+}
+.educationContainerCard::before, .experienceContainerCard::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    right: calc(100% + 22px);
+    background-color: rgb(55, 47, 84);
+    border: 2px solid rgb(55, 47, 84);
+}
+.TimePeriod{
+    font-size: 12px;
+position: relative;
+/* color: #11a372; */
+color: azure;
+
+}
+.graduationName{
+    font-size: 16px;
+    font-weight:500;
+    line-height: 1.2;
+    /* color: #666;   */
+    color: #2a1d3c;
+}
+.companyName{
+    font-size: 16px;
+    color: rgb(194, 185, 245);
+    font-weight: 500;
+    line-height: 1.2;
+}
+.instituteName{
+    font-size: 12px;
+    color: rgb(39, 34, 60);
+}
+
+.experienceContainerCard a{
+    text-decoration: none;
+    color: rgb(194, 185, 245); ;
+}
+@media(max-width:768px){
+    .MainContainer{
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+    }
+    .educationContainerContent:nth-child(2){
+        margin-top: 30px;
+    }
+}
